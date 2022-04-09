@@ -14,7 +14,7 @@ NAME = test_5
 all: $(NAME)
 
 $(NAME): $(OBJ)
-		gcc -o $(NAME) $(OBJ) -g
+		gcc -o $(NAME) $(OBJ)
 
 clean:
 		rm -f $(OBJ)
